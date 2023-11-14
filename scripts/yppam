@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#checks if y-ppa-manager is installed, if not continue to install
+
+echo "adding y-ppa-manager..one moment"
+sudo add-apt-repository ppa:webupd8team/y-ppa-manager
+sudo apt update
+pause .3
+clear
+sudo apt-get install y-ppa-manager
+echo ""
+echo ""
+echo "y-ppa-manager added enjoy"
+exit 0
+
+
