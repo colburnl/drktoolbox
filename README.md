@@ -1,5 +1,3 @@
-# drktoolbox
-
 ## DRKROAST Toolbox Repo
 # My Scripts, Conf files, dotfiles, examples.
 
