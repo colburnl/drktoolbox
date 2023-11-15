@@ -1,0 +1,38 @@
+
+
+# APT
+alias aptup="sudo apt update"
+alias aptupg="sudo apt upgrade -y"
+alias aptin="sudo apt install"
+alias aptf="sudo apt search"
+alias aptupl="sudo apt list --upgradable"
+alias aptadd="sudo add-apt-repository"
+alias aptsrc="cd /etc/apt/sources.list.d/ && sudo nano "
+
+# Git Install & Setup
+# after install basic git-config set top aliases
+
+# cd
+alias hm="cd ~"
+alias rom="cd ~/rom-build"
+alias dls="cd ~/Downloads"
+alias ghdls="cd ~/Downloads/github"
+alias bk="cd .."
+alias bk.="cd ../.."
+alias bk..="cd ../../../"
+
+# ls
+alias la="ls -a"
+alias ll="ls -alF"
+alias lsr="ls -Cl ~/rom-build"
+alias lsrc="ls /etc/apt/sources.list.d/"
+
+# alias edit
+alias eali="sudo nano ~/.aliases"
+alias cali="cat ~/.aliases"
+alias cc="clear"
+alias snano="sudo nano"
+alias srm="sudo rm -rf"
+alias ..="sudo"
+
+alias thedit 
